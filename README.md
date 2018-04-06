@@ -14,5 +14,15 @@ Live example on https://verringer.com
 ## Features
 * Only requires API key and username inputting and is ready to use.
 * Failover to local artwork image if last.fm doesn't have artwork for that song.
-* Artist, Album, Title, Song, URL & Artwork can all be implemented in to your output.
+* Artist, Album, Title, Song, URL, Profile & Artwork can all be implemented in to your output.
 * Default output already set (`<a href="song"><img src="artwork">Artist - Title</a>`)
+
+## Outputs
+For this example, the song is Mr. Brightside by The Killers from the album Hot Fuss being scrobbled by the user Verringer - all of these can be used to alter your output to your liking.  
+>Artist: `The Killers`  
+ Album: `Hot Fuss (Deluxe Version`  
+Title: `Mr. Brightside`  
+Song: `The Killers - Mr. Brightside`  
+Profile: `https://www.last.fm/user/verringer`  
+URL: `https://www.last.fm/music/The+Killers/_/Mr.+Brightside`  
+Artwork: `https://lastfm-img2.akamaized.net/i/u/300x300/a953b1bc98ed42afc2bb0d0ca5a857fc.png`
