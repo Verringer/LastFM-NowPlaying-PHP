@@ -13,6 +13,7 @@
 		$album = $json['recenttracks']['track'][0]['album']['#text'];
 		$title = $json['recenttracks']['track'][0]['name'];
 		$song = $artist.' - '.$title;
+		$profile = 'https://www.last.fm/user/'.$user;
 		$url = $json['recenttracks']['track'][0]['url'];
 		if ($artwork_failover == 'on') {
 			if (empty($json['recenttracks']['track'][0]['image'][3]['#text'])) {
